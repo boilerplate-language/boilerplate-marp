@@ -1,0 +1,51 @@
+/* @theme my-light */
+
+@import "gaia";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+:root {
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  color: #333;
+
+  background: #eee;
+  counter-reset: h1-chapter;
+}
+
+section::after {
+  font-size: 12pt;
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+}
+
+section:first::after {
+  content: " ";
+}
+
+header {
+}
+
+footer {
+}
+
+h1 {
+  font-size: 32pt;
+}
+
+h2 {
+  font-size: 28pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+h4 {
+  font-size: 20pt;
+}
+
+h5 {
+  font-size: 16pt;
+}
+
+h6 {
+  font-size: 12pt;
+}
