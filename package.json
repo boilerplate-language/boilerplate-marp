@@ -1,0 +1,23 @@
+{
+  "name": "marp-template",
+  "version": "1.0.0",
+  "description": "Marp template",
+  "main": "index.js",
+  "scripts": {
+    "push": "git push --follow-tags origin main",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kannkyo/marp-template.git"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.0"
+  },
+  "author": "kannkyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kannkyo/marp-template/issues"
+  },
+  "homepage": "https://github.com/kannkyo/marp-template#readme"
+}
