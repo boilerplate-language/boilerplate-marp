@@ -12,7 +12,7 @@
     "url": "git+https://github.com/kannkyo/marp-template.git"
   },
   "devDependencies": {
-    "standard-version": "^9.3.0"
+    "standard-version": "^9.5.0"
   },
   "author": "kannkyo",
   "license": "MIT",
